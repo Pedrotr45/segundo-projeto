@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+/*cabeçalho*/
+
+.cabeçalho {
+    display: flex;
+    background-color:dodgerblue ;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    
+
+}
+
+.logo {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 9em;
+}
+
+.logo:hover{
+    color: orangered;
+}
+
+.btn {
+     background-color: orangered;
+     color: #fff;
+     padding: 0.6em 2em;
+     border-radius: 15px;
+     border: none;
+     cursor: pointer;
+     font-size: 15px;
+     opacity: 0.7;
+     
+
+     
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+/*descriçâo*/
+
+.main-info {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("imagem/city.png");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+
+.main-descrition h2 {
+    margin-bottom: 0.5em;
+    color:#fff;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+
+
+
+.main-descrition p {
+    line-height: 1.4em;
+    color: grey;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.midia-social {
+    margin-top: 1em;
+}
+
+.midia-social i {
+    font-size: 22px;
+    color: orangered;
+    padding: 0.7em;
+    transition: 1s;
+    
+    
+}
+
+.midia-social i:hover {
+    color: #fff;
+}
+
+.form-login {
+    background-color: black;
+    padding: 4em 3em;
+    text-transform: uppercase;
+}
+
+.form-login h2 {
+    margin-bottom: 0.9em;
+    color: #fff;
+    font-size: 30px;
+}
+
+.login input {
+ width: 100%;
+ padding:1em 1em ;
+ border: none;
+}
+
+input[type=submit] {
+    background-color: orangered;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.7;
+    
+}
+
+input[type=submit]:hover {
+    opacity: 1;
+    
+}
+
+
+
+
+
